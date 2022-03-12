@@ -1,38 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:stretchColumns="1"
+    android:orientation="vertical"
     android:background="@color/white"
     tools:context=".MainActivity">
 
-    <TableRow>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="193 XP lagi ada Harta Karun"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="11sp"/>
 
-        <TextView
-            android:layout_column="1"
-            android:text="193 XP lagi ada Harta Karun"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="11sp"
-            android:padding="3dip"/>
+    <ProgressBar
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progress="30"
+        android:progressTint="@color/green"/>
 
-    </TableRow>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restoran terdekat"
+        android:textSize="11sp"/>
 
-    <View
-        android:layout_height="3dip"
-        android:layout_marginRight="40dp"
-        android:background="#FF909090"/>
-
-    <TableRow>
-
-        <TextView
-            android:layout_column="1"
-            android:text="Restoran terdekat"
-            android:textSize="11sp"
-            android:padding="3dip" />
-
-    </TableRow>
-
-</TableLayout>
+</LinearLayout>
