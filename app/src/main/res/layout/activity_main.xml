@@ -56,14 +56,14 @@
                         android:layout_marginStart="10dp"
                         android:src="@drawable/search" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center_vertical"
-                        android:layout_marginStart="10dp"
-                        android:text="Cari layanan, makanan, dan tujuan"
-                        android:textSize="14sp"
-                        android:textStyle="bold" />
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dp"
+                        android:hint="Cari layanan, makanan, dan tujuan"
+                        android:textSize="14sp" />
 
                 </LinearLayout>
 
